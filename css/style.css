@@ -1,0 +1,67 @@
+button {
+    background-color: green;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+body{
+    display: -ms-flexbox;
+    width: auto;
+    margin: 5px;
+    padding: 2px;
+    flex: auto;
+}
+section{
+    margin: 25px;
+    display: flex;
+
+}
+.info {
+    margin: 15px;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 3vw;
+    padding: 2px;
+    border: 5px solid black; /* Voeg hier de stijl 'solid' toe */
+}
+.pic{
+    margin: 15px;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 3vw;
+    padding: 2px;
+    width: 30%;
+    border: 5px solid black; /* Voeg hier de stijl 'solid' toe */
+}
+.border{
+    margin: 15px;
+
+    display: flex;
+    justify-content: space-evenly;
+    width: 70%;
+    border: 5px solid black; /* Voeg hier de stijl 'solid' toe */
+
+}
+.profile{
+display: flex;
+    width: 15%;
+    height: auto;
+}
+nav{
+    background-color: green;
+    color: white;
+    display: flex;
+    padding: 2vh;
+    gap: 2vw;
+    text-decoration: none;
+}
+.navbar-l{
+    display: flex;
+
+}
+.navbar-r{
+    display: flex;
+
+    }

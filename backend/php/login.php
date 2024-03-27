@@ -58,7 +58,7 @@ if (isset($_POST['submit'])) {
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Liki's Kapsalon - Home</title>
+        <title name="Home"> CronoCare- Home</title>
         <link rel="stylesheet" href="includes/style.css">
     </head>
     <body>
@@ -68,14 +68,15 @@ if (isset($_POST['submit'])) {
             // Check if the user is logged in
             if (isset($_SESSION['user'])) {
                 // Display logout link if logged in
-                echo '<a href="index.php"> Hallo, ' . $name . ' </a>';
-                echo '<a href="create.php">Maak een afspraak</a>';
+                echo '<a href="index.html"> Hallo, ' . $name . ' </a>';
                 echo '<a href="view.php">Bekijk je reserveringen</a>';
                 echo '<a href="logout.php">Logout</a>';
+                echo '<a href="create.php">Maak een afspraak</a>';
             } else {
                 // Display login and signup links if not logged in
                 echo '<a href="index.php">Home</a>';
                 echo '<a href="signup.php">Sign Up</a>';
+                echo '<a href="route.php">Home</a>';
                 echo '<a href="login.php">Login</a>';
             }
             ?>
