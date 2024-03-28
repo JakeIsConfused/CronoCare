@@ -2,7 +2,7 @@
 /**
 * @return array
  **/
-function getHeroes()
+function getInfo()
 {
     return [
         [
