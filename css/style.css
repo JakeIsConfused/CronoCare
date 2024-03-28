@@ -45,7 +45,7 @@ section{
 
 }
 .profile{
-display: flex;
+    display: flex;
     width: 15%;
     height: auto;
 }
@@ -64,4 +64,4 @@ nav{
 .navbar-r{
     display: flex;
 
-    }
+}

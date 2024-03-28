@@ -82,7 +82,7 @@ if (isset($_POST['submit'])) {
             ?>
         </nav>
         <header>
-            <h1 class="headerText">CronoCare</h1>
+            <h1 class="headerText">CronoCare</h1    >
             <h3 class="headerText">LIFE ISN'T PERFECT, BUT YOUR HAIR CAN BE.</h3>
         </header>
         <main>
