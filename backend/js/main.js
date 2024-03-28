@@ -3,28 +3,26 @@ window.addEventListener('load',dispatchEvent);
 const apiUrl = "http://localhost/CronoCare/webservice/index.php"
 let selectElement;
 let selectedOption;
-let infoOpen = false;
-let infoClose = true;
+let infoNumber;
 
 function dispatchEvent() {
     selectElement = document.getElementById("mySelect");
     if (selectElement) {
-        infoOpen = true;
         selectElement.addEventListener("change", selectOptionHandler);
     }
-    if (infoOpen) {
-        selectOptionHandler()
-    }
-
+    loadInformation();
 }
 
 function selectOptionHandler(e){
-    if (selectElement.selectedIndex === -1) {
-        // Geen optie geselecteerd, voer hier geen actie uit
-        return;
-    }
     selectedOption = selectElement.options[selectElement.selectedIndex];
-    ajaxRequest(`backend/php/webservice/index.php?id=${selectedOption.value}`, getInfoSuccessHandler);
+    localStorage.setItem('number', selectedOption.value);
+    window.location.href = 'info.html';
+
+}
+
+function loadInformation(){
+    infoNumber = localStorage.getItem('number');
+    ajaxRequest(`backend/php/webservice/index.php?id=${infoNumber}`, getInfoSuccessHandler);
 }
 
 function ajaxRequest(url, successCallback) {
