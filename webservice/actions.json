@@ -1,0 +1,30 @@
+{
+    "zorginstellingen": [
+        {
+            "naam": "Ziekenhuis XYZ",
+            "locatie": "Stad A",
+            "specialisaties": ["Cardiologie", "Neurologie", "Orthopedie"],
+            "telefoon": "+123456789",
+            "website": "https://www.ziekenhuisxyz.nl",
+            "adres": {
+                "straat": "Straatnaam 123",
+                "postcode": "1234 AB",
+                "stad": "Stad A",
+                "land": "Nederland"
+            }
+        },
+        {
+            "naam": "Verpleeghuis ABC",
+            "locatie": "Stad B",
+            "specialisaties": ["Geriatrische zorg", "Palliatieve zorg"],
+            "telefoon": "+987654321",
+            "website": "https://www.verpleeghuisabc.nl",
+            "adres": {
+                "straat": "Andere Straat 456",
+                "postcode": "5678 CD",
+                "stad": "Stad B",
+                "land": "Nederland"
+            }
+        }
+    ]
+}
