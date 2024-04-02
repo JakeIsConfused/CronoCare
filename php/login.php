@@ -8,7 +8,8 @@ if (isset($_SESSION['user'])) {
 }
 
 /** @var mysqli $db */
-require "php/includes/database.php";
+require "includes/database.php";
+
 
 
 if (isset($_POST['submit'])) {
@@ -54,40 +55,46 @@ if (isset($_POST['submit'])) {
 ?>
 
 <!DOCTYPE html>
-<html lang="en">
+<html class="full" lang="en">
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title name="Home"> CronoCare- Home</title>
-        <link rel="stylesheet" href="../../css/style.css">
+        <link rel="stylesheet" href="/CronoCare/css/style.css">
     </head>
     <body>
-        <nav>
-
-        </nav>
-        <header>
-            <h1 class="headerText">CronoCare</h1>
-            <h3 class="headerText">LIFE ISN'T PERFECT, BUT YOUR HAIR CAN BE.</h3>
-        </header>
         <main>
-            <divLoo></divLoo>
-            <div class="loginformulier">
+<section>
+
+            <div class="left-div">
+                <h1 class="headerText">CronoCare</h1>
+                <h4 class="">Welkom bij Cronocare</h4>
+                <p>Makkelijk je route te vinden met Cronocare</p>
+
+            </div>
+            <div class="right-div">
 
                 <form action="" method="POST">
-                    Log in
+                    <h2>Log in</h2>
                     <div>
-                        <h2>Email:<br></h2>
+                        <p>Email:<br></p>
                         <input type="email" name="email">
                     </div>
                     <div>
-                        <h2>Wachtwoord:<br></h2>
+                        <p>Wachtwoord:<br></p>
                         <input type="password" name="password">
                     </div>
-                    <div>
-                        <button type="submit" label="" name="submit">Inloggen</button>
+                    <div class="bb">
+                        <button class="allbutton" type="submit" label="" name="submit">Inloggen</button>
+                    </div>
+
+                    <div class="ob">
+                        <button class="bbutton" type="submit" label="" name="submit">registreer je hier</button>
                     </div>
                 </form>
             </div>
+            </section>
+
         </main>
     </body>
 </html>

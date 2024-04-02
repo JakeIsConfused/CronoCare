@@ -6,7 +6,7 @@
     display: flex;
     flex-direction: column;
 }
-button {
+.allbutton {
     background-color: green;
     color: white;
     padding: 10px 20px;
@@ -14,17 +14,24 @@ button {
     border-radius: 5px;
     cursor: pointer;
 }
+.bbutton{
+    color: #4eb972;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
 body{
     display: -ms-flexbox;
-    width: auto;
+    width: 100%;
     margin: 5px;
     padding: 2px;
     flex: auto;
 }
 section{
-    margin: 25px;
-    display: flex;
 
+    display: flex;
+    justify-content: center;
+      width: 100%;
 }
 .info {
     margin: 15px;
@@ -81,4 +88,20 @@ nav{
 .navbar-r{
     display: flex;
 
+}
+.left-div {
+    float: left;
+    width: 200px; /* Pas de breedte aan naar wens */
+    background-color: #4EB972;
+
+}
+.right-div {
+    float: right;
+    width: 200px; /* Pas de breedte aan naar wens */
+}
+.bb{
+    align-content: center;
+}
+.full{
+    width: auto;
 }

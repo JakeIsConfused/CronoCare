@@ -8,6 +8,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     session_start();
     $_SESSION["theme"] = $_POST["theme"];
     $_SESSION["language"] = $_POST["language"];
+    $_SESSION["lettertype"] = $_POST["lettertype"];
+
 
     // Stuur de gebruiker door naar de instellingenpagina om de wijzigingen te zien
     header("Location: settings.php");
@@ -33,11 +35,21 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
         <label for="language">Taal:</label>
         <select name="language" id="language">
-            <option value="english">Engels</option>
             <option value="dutch">Nederlands</option>
+            <option value="english">Engels</option>
+        </select><br><br>
+
+        <label for="lettertype">Lettertype:</label>
+        <select name="Lettertype" id="lettertype">
+            <option value="13">13</option>
+            <option value="16">16</option>
+            <option value="18">18</option>
+            <option value="20">20</option>
         </select><br><br>
 
         <input type="submit" value="Opslaan">
+        <input type="button" value="Terug" >
+
     </form>
     </body>
     </html>
