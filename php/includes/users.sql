@@ -26,8 +26,9 @@ CREATE TABLE `users` (
                          `id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT,
                          `first_name` varchar(50) NOT NULL,
                          `last_name` varchar(50) NOT NULL,
+                         birthdate DATE NOT NULL,
                          `email` varchar(255) NOT NULL,
-                         `telephone_number` varchar(20) NOT NULL,
+                         password VARCHAR(255) NOT NULL,
                          PRIMARY KEY (`id`)
 );
 

@@ -1,3 +1,11 @@
+.register{
+    background-color: #cbf0d0;
+    width: auto;
+}
+.reginfo{
+    display: flex;
+    flex-direction: column;
+}
 button {
     background-color: green;
     color: white;
@@ -50,13 +58,22 @@ section{
     height: auto;
 }
 nav{
-    background-color: green;
+    background-color: #4eb972;
     color: white;
     display: flex;
     padding: 2vh;
     gap: 2vw;
     text-decoration: none;
 }
+.r{
+    background-color: #4eb972;
+    color: white;
+    display: flex;
+    padding: 2vh;
+    gap: 2vw;
+    text-decoration: none;
+}
+
 .navbar-l{
     display: flex;
 

@@ -12,7 +12,7 @@
 <div>
     <h1 class="main-title">Welkom</h1>
     <img class="logo" src="images/logo.png" alt="logo">
-    <a href="settings.php"><img class="settingKnop" src="images/settings.png" alt="afbeelding van instelling knop"></a>
+    <a href="php/settings.php"><img class="settingKnop" src="images/settings.png" alt="afbeelding van instelling knop"></a>
 </div>
 <!-- Buttons to trigger the displayHeroDetails function for each hero -->
 <h2 class="">zorginstellingen</h2>

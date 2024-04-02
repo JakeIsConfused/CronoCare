@@ -3,12 +3,12 @@ session_start();
 $login = false;
 global $mysql;
 
-if (isset($_SESSION['users'])) {
-    $name = $_SESSION['users']['first_name'];
+if (isset($_SESSION['user'])) {
+    $name = $_SESSION['user']['first_name'];
 }
 
 /** @var mysqli $db */
-require_once "backend/php/includes/database.php";
+require "php/includes/database.php";
 
 
 if (isset($_POST['submit'])) {
@@ -33,7 +33,7 @@ if (isset($_POST['submit'])) {
     // If data valid
     if (empty($errors)) {
         // SELECT the user from the database, based on the email address.
-        $query = "SELECT * FROM `users` WHERE `email` = '$email'";
+        $query = "SELECT * FROM `users ` WHERE `email` = '$email'";
         $result = mysqli_query($mysql, $query)
         or die('error');
 
@@ -44,10 +44,10 @@ if (isset($_POST['submit'])) {
                 $_SESSION['user'] = $user;
                 header('Location: index.php');
             } else {
-                $errors['loginFailed'] = "Wrong email/pw combi";
+                $errors['loginFailed'] = "Entered wrong credentials";
             }
         } else {
-            $errors['loginFailed'] = "Wrong email/pw combi";
+            $errors['loginFailed'] = "Entered wrong credentials";
         }
     }
 }
@@ -63,33 +63,18 @@ if (isset($_POST['submit'])) {
     </head>
     <body>
         <nav>
-            <img src="images/logo.png" alt="LikiKapsalon Logo" width="150" height="150">
-            <?php
-            // Check if the user is logged in
-            if (isset($_SESSION['user'])) {
-                // Display logout link if logged in
-                echo '<a href="index.html"> Hallo, ' . $name . ' </a>';
-                echo '<a href="view.php">Bekijk je reserveringen</a>';
-                echo '<a href="logout.php">Logout</a>';
-                echo '<a href="create.php">Maak een afspraak</a>';
-            } else {
-                // Display login and signup links if not logged in
-                echo '<a href="index.php">Home</a>';
-                echo '<a href="signup.php">Sign Up</a>';
-                echo '<a href="route.php">Home</a>';
-                echo '<a href="login.php">Login</a>';
-            }
-            ?>
+
         </nav>
         <header>
-            <h1 class="headerText">CronoCare</h1    >
+            <h1 class="headerText">CronoCare</h1>
             <h3 class="headerText">LIFE ISN'T PERFECT, BUT YOUR HAIR CAN BE.</h3>
         </header>
         <main>
-            <div class="">
-                <h2>Inloggen</h2>
+            <divLoo></divLoo>
+            <div class="loginformulier">
+
                 <form action="" method="POST">
-                    <!-- <input type="hidden" name="user_id" value=""> -->
+                    Log in
                     <div>
                         <h2>Email:<br></h2>
                         <input type="email" name="email">
@@ -99,7 +84,7 @@ if (isset($_POST['submit'])) {
                         <input type="password" name="password">
                     </div>
                     <div>
-                        <button type="submit" name="submit">Account Aanmaken</button>
+                        <button type="submit" label="" name="submit">Inloggen</button>
                     </div>
                 </form>
             </div>
