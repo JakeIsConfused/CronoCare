@@ -39,9 +39,13 @@ function ajaxRequest(url, successCallback) {
 
 function getInfoSuccessHandler(data){
     let infoField1 = document.getElementById('info1');
-    infoField1.textContent = data.textInfo1;
+    if (infoField1) {
+        infoField1.textContent = data.textInfo1;
+    }
     let infoField2 = document.getElementById('info2');
-    infoField2.textContent = data.textInfo2;
+    if (infoField2) {
+        infoField2.textContent = data.textInfo2;
+    }
 }
 
 function getBooksErrorHandler(error) {
