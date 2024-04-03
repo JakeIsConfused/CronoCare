@@ -14,6 +14,12 @@
     border-radius: 5px;
     cursor: pointer;
 }
+button{
+    button {
+        border: none; /* Verwijder de rand van de knop */
+    }
+}
+
 .bbutton{
     color: #4eb972;
     border: none;
@@ -22,7 +28,7 @@
 }
 body{
     display: -ms-flexbox;
-    width: 100%;
+    width: auto;
     margin: 5px;
     padding: 2px;
     flex: auto;
@@ -62,6 +68,17 @@ section{
 .profile{
     display: flex;
     width: 15%;
+    height: auto;
+}
+.settingKnop{
+    display: flex;
+    width: 15%;
+    height: auto;
+}
+.logolog{
+    width: 20%;
+    display: flex;
+    flex-shrink: 1;
     height: auto;
 }
 nav{

@@ -67,7 +67,8 @@ if (isset($_POST['submit'])) {
 <section>
 
             <div class="left-div">
-                <h1 class="headerText">CronoCare</h1>
+                <img class="logolog" src="/CronoCare/css/img/logo.png">
+
                 <h4 class="">Welkom bij Cronocare</h4>
                 <p>Makkelijk je route te vinden met Cronocare</p>
 

@@ -48,6 +48,38 @@ function getInfoSuccessHandler(data){
     }
 }
 
+function changeSetting(id) {
+    console.log("setting change", id);
+//check of de localstorage is gevonden
+    if (localStorage.getItem(id)){
+//item gevonden
+        if (localStorage.getItem(id) === "false"){
+//item bestaat niet maak hem aan
+            localStorage.setItem(id, "true")
+//get target div
+            const targetDiv = document.getElementById(id)
+            console.log(targetDiv);
+//pas de class aan van de div
+            targetDiv.classList.add("favHero")
+            targetDiv.classList.remove("hero")
+        }else {
+            localStorage.setItem(id, "false")
+//get target div
+            const targetDiv = document.getElementById(id)
+//pas de class aan van de div
+            targetDiv.classList.add("hero")
+            targetDiv.classList.remove("favHero")
+        }
+    }else{
+//item niet gevonden
+        console.log("localstorage niet gevonden")
+    }
+}
+function changeFont() {
+    var selectedFontSize = document.getElementById("lettertype").value;
+    document.body.style.fontSize = selectedFontSize + "px";
+}
+
 function getBooksErrorHandler(error) {
     console.error(error);
 }

@@ -39,7 +39,7 @@ if (isset($_POST['submit'])) {
 <body class="register">
 <header>
     <nav class="r">
-        <img class="profile" src="css/img/veryimportan.jpg">
+        <img class="profile" src="/CronoCare/css/img/logo.png"">
 
         <a href="/CronoCare/index.php">Home</a>
 
