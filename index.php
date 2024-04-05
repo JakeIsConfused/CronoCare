@@ -22,9 +22,9 @@
 <h2 class="">zorginstellingen</h2>
 <select id="mySelect">
     <option value="" selected disabled>Kies een zorginstelling</option>
-    <option value="1">zorginstelling 1</option>
-    <option value="2">zorginstelling 2</option>
-    <option value="3">zorginstelling 3</option>
+    <option value="1">Erasmus MC</option>
+    <option value="2">Maasstad Ziekenhuis</option>
+    <option value="3">Rijndam Revalidatie</option>
 </select>
 </section>
 </body>

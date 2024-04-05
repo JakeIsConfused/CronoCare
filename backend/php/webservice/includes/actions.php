@@ -27,43 +27,28 @@ function getCareInfo($id)
 {
     $tags = [
         1 => [
-            "textInfo1" => "Dit is zorginstelling 1.
-            . Lorem Ipsum has been the industry's standard dummy text ever since the 1500s
-        , when an unknown printer took a galley of type and scrambled it to make a type specimen book.
-        It has survived not only five centuries, but also the leap into electronic typesetting,
-        remain",
-            "textInfo2" => "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
-    the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type
-    and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap
-    into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release
-    of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software
-    like Aldus PageMaker including versions of Lorem Ipsum."
+            //Erasmus Mc
+            //info pagina
+            "nameInfo" => "Erasmus MC",
+            "textInfo1" => "In het Erasmus MC werken we hard aan het verbeteren van de zorg van vandaag én de gezondheid van morgen. We zien dat er van alles beter kan. Want goede zorg is nooit af. Gelukkig is stilzitten niet aan ons besteed. Er is genoeg te doen. In het lab en in de schoolbanken. Met toponderzoek en innovaties, maar juist ook aan bed waar we de beste zorg voor onze patiënten leveren. Met slimme oplossingen en ideeën. En vooral door het gewoon te doen. In zo'n omgeving haal je elke dag het beste uit jezelf. Het begint met doen.",
+            "textInfo2" => "Geworteld in Rotterdam, wereldstad en thuishaven. Met mensen vanuit alle windstreken, culturen, talen en gezichten. Daar klopt ons hart als nooit tevoren. Want Rotterdam is een stad van iedereen. Hier werken wij, medewerkers, vrijwilligers en studenten, elke dag met toewijding en passie aan alles waar het Erasmus MC voor staat: een gezonde bevolking en excellente zorg. ",
+            "imageInfo" => "css/img/erasmusMC.png"
         ],
         2 => [
-            "textInfo1" => "Dit is zorginstelling 2.
-            . Lorem Ipsum has been the industry's standard dummy text ever since the 1500s
-        , when an unknown printer took a galley of type and scrambled it to make a type specimen book.
-        It has survived not only five centuries, but also the leap into electronic typesetting,
-        remain",
-            "textInfo2" => "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
-    the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type
-    and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap
-    into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release
-    of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software
-    like Aldus PageMaker including versions of Lorem Ipsum."
+            //Het Maasstad Ziekenhuis
+            //info pagina
+            "nameInfo" => "Het Maasstad Ziekenhuis",
+            "textInfo1" => "Het Maasstad Ziekenhuis, gelegen in Rotterdam-Zuid, is een toonaangevend medisch centrum dat een breed scala aan hoogwaardige gezondheidszorgdiensten biedt. Met specialisaties variërend van cardiologie en chirurgie tot neurologie en oncologie, beschikt het ziekenhuis over moderne faciliteiten, waaronder operatiekamers, intensive care units en radiologieafdelingen. Het ziekenhuis heeft een reputatie opgebouwd als een belangrijk centrum voor medische zorg in de regio, waarbij het zich richt op kwalitatieve patiëntenzorg, onderzoek en opleiding van medische professionals. Daarnaast streeft het Maasstad Ziekenhuis naar duurzame en milieuvriendelijke praktijken, waardoor het een integraal onderdeel is van de gemeenschap.",
+            "textInfo2" => "Het Maasstad Ziekenhuis is voortgekomen uit een fusie van verschillende ziekenhuizen en heeft daarmee een rijke geschiedenis als zorginstelling in Rotterdam en omgeving. Met een focus op innovatie en continue verbetering, biedt het ziekenhuis niet alleen zorg op hoog niveau, maar ook een patiëntgerichte benadering waarbij de behoeften en wensen van de patiënten centraal staan. Door middel van samenwerking met andere zorginstellingen en onderzoeksinstituten draagt het Maasstad Ziekenhuis bij aan de vooruitgang van de medische wetenschap en de verbetering van de gezondheidszorg, zowel lokaal als nationaal.",
+            "imageInfo" => "css/img/maasstad.png"
         ],
         3 => [
-            "textInfo1" => "Dit is zorginstelling 3.
-            . Lorem Ipsum has been the industry's standard dummy text ever since the 1500s
-        , when an unknown printer took a galley of type and scrambled it to make a type specimen book.
-        It has survived not only five centuries, but also the leap into electronic typesetting,
-        remain",
-            "textInfo2" => "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
-    the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type
-    and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap
-    into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release
-    of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software
-    like Aldus PageMaker including versions of Lorem Ipsum."
+            //Rijndam Revalidatie
+            //info pagina
+            "nameInfo" => "Rijndam Revalidatie",
+            "textInfo1" => "Bij Rijndam zoeken we altijd naar verrassende oplossingen. We zetten situaties altijd in nieuwe perspectieven. Dat helpt ons met het vinden van nieuwe mogelijkheden en het op maat maken van onze zorg. Bekijk hoe wij je helpen met het heruitvinden van jezelf. VerBaas Jezelf!",
+            "textInfo2" => "Rijndam is specialist in complexe revalidatievraagstukken. Al meer dan 100 jaar leren wij kinderen, jongeren en volwassen omgaan met de gevolgen van een ziekte, aandoening of ongeval. Onze deskundige en betrokken medewerkers krijgen en nemen de verantwoordelijkheid voor zorg die op de patiënt is afgestemd. Samen met de patiënt werken we aan de revalidatie. We doen dat centraal als het nodig is en dichtbij huis als het mogelijk is.",
+            "imageInfo" => "css/img/rijndam.png"
         ],
     ];
 
