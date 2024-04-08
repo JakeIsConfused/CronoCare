@@ -38,8 +38,8 @@ body{
     padding: 2px;
     flex: auto;
 }
-section{
 
+section{
     display: flex;
     justify-content: center;
       width: 100%;
@@ -162,4 +162,21 @@ img{
 }
 .full{
     width: auto;
+}
+
+/* parkpagina */
+.parkImage{
+    width: 70%;
+}
+
+.randomText{
+    padding-left: 17px;
+}
+
+.parkText{
+    margin: 15px;
+    padding: 2px;
+    display: flex;
+    width: 70%;
+    border: 3px solid black; /* Voeg hier de stijl 'solid' toe */
 }
