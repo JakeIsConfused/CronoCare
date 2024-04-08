@@ -24,6 +24,8 @@ button{
     padding: 3px;
     align-items: center;
     justify-self: auto;
+    justify-content: flex-end;
+
 }
 .bbutton{
     color: #4eb972;
@@ -87,7 +89,7 @@ section{
 a{
     justify-content: center;
     width: fit-content;
-display: inline-block;
+    display: inline-block;
     overflow:hidden;
 }
 .settingKnop{
@@ -95,6 +97,8 @@ display: inline-block;
     width: 15%;
     height: auto;
     font-size:12px;
+    float: right;
+    margin: 0px 30px 0px 30px;
 }
 .logolog{
     width: 20%;
@@ -145,6 +149,8 @@ float: right;
 .zorgers {
     display: flex;
     flex-direction: column;
+    align-items: center;
+    padding: 100px 0px 0px
 
 }
 .optie{
@@ -162,6 +168,14 @@ img{
 }
 .full{
     width: auto;
+}
+
+#mySelect{
+    padding:15px 150px;
+}
+
+.indexA {
+    float: right;
 }
 
 /* parkpagina */
