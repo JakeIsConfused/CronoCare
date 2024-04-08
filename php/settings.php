@@ -23,11 +23,12 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <script src="CronoCare/backend/js/main.js"></script>
-
+        <link rel="stylesheet" href="CronoCare/css/style.css">
         <title>Instellingen</title>
     </head>
     <body>
-    <h1>Instellingen</h1>
+  <section class="optie">
+      <h1>Instellingen</h1>
     <form method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>">
         <label for="theme">Thema:</label>
         <select name="theme" id="theme">
@@ -48,10 +49,10 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             <option value="18">18</option>
             <option value="20">20</option>
         </select><br><br>
+  </section>
 
-        <input type="submit" value="Opslaan">
-        <input type="button" value="Terug" >
-
+  <input type="submit" value="Opslaan">
+        <button><a href="CronoCare/index.php">Home</a></button>
     </form>
     </body>
     </html>

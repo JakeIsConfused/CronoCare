@@ -37,12 +37,12 @@ function ajaxRequest(url, successCallback) {
         .catch(getBooksErrorHandler);
 }
 
-function getInfoSuccessHandler(data){
 //Informatie pagina vullen
+function getInfoSuccessHandler(data){
+    console.log(data.nameInfo)
     let title = document.getElementById('title');
-    if (title) {
-        title.innerHTML = data.nameInfo;
-    }
+    title.innerHTML = data.nameInfo;
+
     let infoField1 = document.getElementById('info1');
     if (infoField1) {
         infoField1.textContent = data.textInfo1;
@@ -52,9 +52,7 @@ function getInfoSuccessHandler(data){
         infoField2.textContent = data.textInfo2;
     }
     let infoImg = document.getElementById("infoImage");
-    if (infoImg) {
         infoImg.src = data.imageInfo;
-    }
 }
 
 function changeSetting(id) {

@@ -8,17 +8,22 @@
     <title>Website</title>
 </head>
 <body>
+<div class="welcome">
+    <div>
+<h1> Welkom</h1>
+    </div>
+    <div class="navbar-r">
+        <img  class="logo" src="css/img/logo.png">
+    </div>
+    <div class="setting">
+        <button><a href="php/settings.php"><img class="settingKnop" src="css/img/settings.png" alt="afbeelding van instelling knop"></a></button>
+
+    </div>
+</div>
+
 <div>
-<div class="">
-    <h1> Welkom</h1>
-</div>
-<div class="right-div">
-    <img class="profile" src="css/img/logo.png" alt="logo">
-    <a href="php/settings.php"><img class="settingKnop" src="css/img/settings.png" alt="afbeelding van instelling knop"></a>
-</div>
-</div>
 <!-- Buttons to trigger the displayHeroDetails function for each hero -->
-<section>
+<section class="zorgers">
 <h2 class="">zorginstellingen</h2>
 <select id="mySelect">
     <option value="" selected disabled>Kies een zorginstelling</option>
