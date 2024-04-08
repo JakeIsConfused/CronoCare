@@ -15,10 +15,9 @@
     cursor: pointer;
 }
 button{
-    button {
         border: none; /* Verwijder de rand van de knop */
-    }
 }
+
 .welcome{
     display: flex;
     margin: 3px;
@@ -80,6 +79,7 @@ section{
     width: 15%;
     height: auto;
 }
+
 .logo{
     width: 200px; /* Set the width */
     height: auto; /* Maintain aspect ratio */
