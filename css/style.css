@@ -43,7 +43,7 @@ section{
 
     display: flex;
     justify-content: center;
-      width: 100%;
+    width: 100%;
 }
 .info {
     margin: 15px;
@@ -87,7 +87,7 @@ section{
 a{
     justify-content: center;
     width: fit-content;
-display: inline-block;
+    display: inline-block;
     overflow:hidden;
 }
 .settingKnop{
@@ -130,7 +130,7 @@ nav{
 }
 .navbar-r{
     display: flex;
-float: right;
+    float: right;
 }
 .left-div {
     float: left;
