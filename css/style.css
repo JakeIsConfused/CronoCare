@@ -19,7 +19,13 @@ button{
         border: none; /* Verwijder de rand van de knop */
     }
 }
-
+.welcome{
+    display: flex;
+    margin: 3px;
+    padding: 3px;
+    align-items: center;
+    justify-self: auto;
+}
 .bbutton{
     color: #4eb972;
     border: none;
@@ -56,6 +62,10 @@ section{
     width: 30%;
     border: 5px solid black; /* Voeg hier de stijl 'solid' toe */
 }
+#infoImage{
+    display:flex;
+    width: fit-content;
+}
 .border{
     margin: 15px;
 
@@ -70,16 +80,30 @@ section{
     width: 15%;
     height: auto;
 }
+.logo{
+    width: 200px; /* Set the width */
+    height: auto; /* Maintain aspect ratio */
+}
+a{
+    justify-content: center;
+    width: fit-content;
+display: inline-block;
+    overflow:hidden;
+}
 .settingKnop{
     display: flex;
     width: 15%;
     height: auto;
+    font-size:12px;
 }
 .logolog{
     width: 20%;
     display: flex;
     flex-shrink: 1;
     height: auto;
+}
+.setting{
+    float: right;
 }
 nav{
     background-color: #4eb972;
@@ -88,6 +112,8 @@ nav{
     padding: 2vh;
     gap: 2vw;
     text-decoration: none;
+    align-content: space-evenly;
+
 }
 .r{
     background-color: #4eb972;
@@ -104,7 +130,7 @@ nav{
 }
 .navbar-r{
     display: flex;
-
+float: right;
 }
 .left-div {
     float: left;
@@ -116,6 +142,21 @@ nav{
     float: right;
     width: 200px; /* Pas de breedte aan naar wens */
 }
+.zorgers {
+    display: flex;
+    flex-direction: column;
+
+}
+.optie{
+    background-color: #4eb972;
+    display: flex;
+    justify-content: center;
+}
+img{
+    width: auto;
+    display: flex;
+}
+
 .bb{
     align-content: center;
 }
