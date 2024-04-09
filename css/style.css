@@ -78,7 +78,7 @@ section{
 }
 #viewImage{
     display:flex;
-    width: auto;
+    width: 80%;
 }
 #parkImage{
     display:flex;
@@ -175,10 +175,6 @@ float: right;
     background-color: #4eb972;
     display: flex;
     justify-content: center;
-}
-img{
-    width: auto;
-    display: flex;
 }
 
 .bb{
