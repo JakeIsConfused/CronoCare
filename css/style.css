@@ -78,11 +78,11 @@ section{
 }
 #viewImage{
     display:flex;
-    width: 80%;
+
 }
 #parkImage{
     display:flex;
-    width: 100%;
+    width: 85%;
 }
 
 .border{
