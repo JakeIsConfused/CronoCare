@@ -65,8 +65,26 @@ section{
 }
 #infoImage{
     display:flex;
-    width: fit-content;
+    width: 100%;
 }
+#routeImage{
+    display:flex;
+    width: 80%;
+    justify-self: center;
+}
+.route{
+    align-content: center;
+   text-align: center;
+}
+#viewImage{
+    display:flex;
+    width: auto;
+}
+#parkImage{
+    display:flex;
+    width: 100%;
+}
+
 .border{
     margin: 15px;
 
