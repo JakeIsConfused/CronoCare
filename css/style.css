@@ -175,6 +175,7 @@ float: right;
     background-color: #4eb972;
     display: flex;
     justify-content: center;
+    flex-direction: column;
 }
 
 .bb{

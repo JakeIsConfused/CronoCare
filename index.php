@@ -16,7 +16,7 @@
         <img  class="logo" src="css/img/logo.png">
     </div>
     <div class="setting">
-        <button><a href="php/settings.php"><img class="settingKnop" src="css/img/settings.png" alt="afbeelding van instelling knop"></a></button>
+        <button><a href="setting.php"><img class="settingKnop" src="css/img/settings.png" alt="afbeelding van instelling knop"></a></button>
 
     </div>
 </div>
