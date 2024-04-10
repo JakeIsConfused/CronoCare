@@ -59,7 +59,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     </section>
 
     <input type="submit" value="Opslaan">
-    <button><a href="index.php">Home</a></button>
+    <button><a href="index.html">Home</a></button>
     </form>
     </body>
     </html>
